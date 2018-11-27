@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     pixel.addEventListener('click', (event) => {
       console.log('i was clicked', event.target)
       // event.target.classList.remove(pixel)
-      event.target.classList.remove('white', 'red', 'blue', 'green', 'purple', 'black')
+      event.target.classList.remove('white', 'red', 'blue', 'green', 'purple', 'black', 'pink', 'limegreen', 'orange')
       event.target.classList.add(changeBrush)
     })
     canvas.appendChild(pixel)
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 
-  var colors = ['white', 'red', 'blue', 'green', 'purple', 'black']
+  var colors = ['white', 'red', 'blue', 'green', 'purple', 'black', 'pink', 'limegreen', 'orange']
 
   for (var i = 0; i < colors.length; i++) {
     var pickColor = colors[i]

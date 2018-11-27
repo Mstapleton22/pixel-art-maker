@@ -10,13 +10,12 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   border: 10px solid grey;
-  border-bottom: 100px solid grey;
   border-radius: 2%;
-  width: 810px;
-  height: 400px;
+  width: 805px;
+  height: 422px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .pixel {
@@ -27,8 +26,20 @@ body {
 .colorContainer {
   border: 1px solid black;
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.paletteContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border: 60px solid grey;
+  width: 705px;
+  background-color: grey;
+  border-radius: 2%;
+  margin-top: -10px;
+  z-index: 1;
 }
 .red{ 
   background-color: red;
@@ -53,3 +64,19 @@ body {
 .white {
   background-color: white;
 }
+
+.pink {
+  background-color: pink;
+}
+
+.limegreen {
+  background-color: limegreen;
+}
+
+.orange {
+  background-color: orange;
+}
+
+
+
+
